@@ -1,4 +1,4 @@
-package ifElse_Switch;
+package hafta3;
 
 import java.util.Scanner;
 
