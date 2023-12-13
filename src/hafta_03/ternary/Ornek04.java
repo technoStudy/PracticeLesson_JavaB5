@@ -12,8 +12,8 @@ public class Ornek04 {
 
         Scanner input = new Scanner(System.in); // Scanner nesnesi oluşturun
         System.out.print("Cinsiyetinizi giriniz (E/K): "); // Kullanıcıdan cinsiyetini isteyin
-        char cinsiyet = input.next().charAt(0); // Kullanıcının girdiği ilk karakteri alın
-        String mesaj = (cinsiyet == 'E' || cinsiyet == 'e') ? "Erkek" : (cinsiyet == 'K' || cinsiyet == 'k') ? "Kadın" : "Geçersiz giriş"; // Ternary operatörü ile mesajı belirle
+        char cinsiyet = input.next().toLowerCase().charAt(0); // Kullanıcının girdiği ilk karakteri alın
+        String mesaj = (cinsiyet == 'e') ? "Erkek" : (cinsiyet == 'k') ? "Kadın" : "Geçersiz giriş"; // Ternary operatörü ile mesajı belirle
         System.out.println(mesaj); // Mesajı ekrana yazdır
         input.close(); // Scanner nesnesini kapatın
     }

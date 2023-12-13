@@ -14,6 +14,7 @@ public class Ornek05 {
 
         System.out.print("Bir harf girin: ");
         char harf = input.next().toLowerCase().charAt(0);
+        input.close();
 
         String sonuc = (harf == 'a' || harf == 'e' || harf == 'ı' || harf == 'i' || harf == 'o' || harf == 'ö' || harf == 'u' || harf == 'ü') ? "sesli" : "sessiz";
         System.out.println("Girilen harf bir " + sonuc + " harf.");

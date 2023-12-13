@@ -12,6 +12,7 @@ public class Ornek01 {
         Scanner input = new Scanner(System.in);
         System.out.print("Yaşınızı giriniz: ");
         int yas = input.nextInt();
+        input.close();
 
         String durum = (yas >= 18) ? "Ehliyet alabilirsiniz" : "Ehliyet alamazsınız";
         System.out.println(durum);

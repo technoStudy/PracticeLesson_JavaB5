@@ -12,15 +12,16 @@ public class Ornek04 {
         Scanner input = new Scanner(System.in); // Scanner nesnesi oluşturun
 
         System.out.print("Cinsiyetinizi giriniz (E/K): "); // Kullanıcıdan cinsiyetini isteyin
-        char cinsiyet = input.next().charAt(0); // Kullanıcının girdiği ilk karakteri alın
+        char cinsiyet = input.next().toLowerCase().charAt(0); // Kullanıcının girdiği ilk karakteri alın
 
-        if (cinsiyet == 'E' || cinsiyet == 'e') { // Eğer karakter E veya e ise
+        if (cinsiyet == 'e') { // Eğer karakter E veya e ise
             System.out.println("Erkek"); // Erkek mesajını yazdırın
-        } else if (cinsiyet == 'K' || cinsiyet == 'k') { // Eğer karakter K veya k ise
+        } else if (cinsiyet == 'k') { // Eğer karakter K veya k ise
             System.out.println("Kadın"); // Kadın mesajını yazdırın
         } else { // Eğer başka bir karakter ise
             System.out.println("Geçersiz giriş"); // Geçersiz giriş mesajını yazdırın
         }
+
         input.close(); // Scanner nesnesini kapatın
     }
 }

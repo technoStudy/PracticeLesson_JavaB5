@@ -25,7 +25,6 @@ public class Ornek03 {
             mesaj = "Merhaba kıymetli büyüğüm";
         }
         System.out.println(mesaj);
-
     }
 }
 

@@ -15,8 +15,7 @@ public class Ornek02 {
         int yas = input.nextInt();
         input.close();
 
-        double indirim;
-        double fiyat;
+        double indirim, fiyat;
 
         indirim = (yas < 18) ? 12 : (yas >= 18 && yas < 60) ? 6 : 9;
         fiyat = 60 - indirim;
