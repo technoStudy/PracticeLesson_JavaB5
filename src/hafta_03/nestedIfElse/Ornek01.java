@@ -2,7 +2,7 @@ package hafta_03.nestedIfElse;
 
 import java.util.Scanner;
 
-public class _01_Example {
+public class Ornek01 {
     public static void main(String[] args) {
 
         // Girilen 3 sayıyı "küçükten büyüğe" doğru
