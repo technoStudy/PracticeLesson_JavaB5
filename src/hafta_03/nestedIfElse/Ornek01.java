@@ -5,44 +5,59 @@ import java.util.Scanner;
 public class Ornek01 {
     public static void main(String[] args) {
 
-        // Girilen 3 sayıyı "küçükten büyüğe" doğru
-        // sıralayan programı Java ile yazınız.
+        /**
+         1)- Java programlama dilinde, kullanıcı adı ve şifre isteyen bir program yazınız.
+         2)- Eğer geçerli kullanıcı adı ve şifre girilir ise
+             "Giriş işlemi başarıyla gerçekleşti." mesajını ekrana yazdırmalısınız.
+         3)- Eğer kullanıcı adı doğru girilip şifre yanlış girilirse,
+             kullanıcıya şifresini sıfırlayıp sıfırlamayacağını sormalısınız.
+         4)- Eğer kullanıcı şifresini sıfırlamak istemiyorsa "İyi günler dileriz."
+             mesajını ekrana yazdırmalısınız.
+         5)- Eğer kullanıcı şifresini sıfırlamak istiyorsa,
+             yeni girdiği şifrenin hatalı girilen şifre veya
+             unutulan şifreyle aynı olmaması gerektiğini kontrol etmelisiniz.
+             Şifreler aynıysa "Şifre oluşturulamadı, lütfen başka bir şifre giriniz."
+             mesajını ekrana yazdırmalısınız.
+         6)- Eğer şifreler farklıysa "Şifre oluşturuldu." mesajını ekrana yazdırmalısınız.
+         7)- Eğer kullanıcı adı yanlış girilirse "Bilgileriniz yanlış." mesajını ekrana yazdırmalısınız.
 
-        int sayi1, sayi2, sayi3;
+             Geçerli kullanıcı adı: Javacan
+             Geçerli şifre        : java1001
+         */
+
+        String kullaniciAdi, sifre, yeniSifre;
+        int secim;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Üç farklı sayı girin:");
-        System.out.print("Birinci Sayı (sayi1) : ");
-        sayi1 = input.nextInt();
 
-        System.out.print("İkinci Sayı (sayi2) : ");
-        sayi2 = input.nextInt();
+        System.out.print("Kullanıcı adınız : ");
+        kullaniciAdi = input.nextLine();
 
-        System.out.print("Üçüncü Sayı (sayi3) : ");
-        sayi3 = input.nextInt();
+        System.out.print("Şifreniz : ");
+        sifre = input.nextLine();
 
-        if ((sayi1 == sayi2) || (sayi1 == sayi3) || (sayi2 == sayi3)) {
-            System.out.println("Yanlış giriş yaptınız. Lütfen farklı sayılar girin.");
-        } else {
-            if ((sayi1 < sayi2) && (sayi1 < sayi3)) {
-                if (sayi2 < sayi3) {
-                    System.out.println("sayi1 < sayi2 < sayi3");
+        if (kullaniciAdi.equals("Javacan") && sifre.equals("java1001")) {
+            System.out.println("Giriş işlemi başarıyla gerçekleştirildi.");
+        } else if (kullaniciAdi.equals("Javacan")) {
+            System.out.println("Yanlış şifre; kullanıcı şifrenizi sıfırlamak ister misiniz?");
+            System.out.print("1-Evet \n2-Hayır\n");
+            System.out.print("Seçiminiz : ");
+            secim = input.nextInt();
+            input.nextLine();
+
+            if (secim == 1) {
+                System.out.print("Yeni şifrenizi giriniz : ");
+                yeniSifre = input.nextLine();
+                if (yeniSifre.equals(sifre) || yeniSifre.equals("java1001")) {
+                    System.out.println("Şifre oluşturulamadı, lütfen başka bir şifre giriniz.");
                 } else {
-                    System.out.println("sayi1 < sayi3 < sayi2");
+                    System.out.println("Şifre oluşturuldu.");
                 }
-            } else if ((sayi2 < sayi1) && (sayi2 < sayi3)) {
-                if (sayi1 < sayi3) {
-                    System.out.println("sayi2 < sayi1 < sayi3");
-                } else {
-                    System.out.println("sayi2 < sayi3 < sayi1");
-                }
-            } else {
-                if (sayi1 < sayi2) {
-                    System.out.println("sayi3 < sayi1 < sayi2");
-                } else {
-                    System.out.println("sayi3 < sayi2 < sayi1");
-                }
+            }else {
+                System.out.println("İyi günler dileriz.");
             }
+        } else {
+            System.out.println("Bilgileriniz yanlış.");
         }
     }
 }
