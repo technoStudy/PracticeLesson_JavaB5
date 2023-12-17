@@ -1,4 +1,4 @@
-package hafta_03.ternary;
+package practiseLessons.ternary;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package hafta_03.ternary;
+package practiseLessons.ifElse;
 
 import java.util.Scanner;
 
@@ -7,8 +7,6 @@ public class Ornek05 {
 
         // Kullanıcıdan bir harf girişi alarak, bu harfin
         // sesli veya sessiz harf olduğunu belirleyen bir program yazın.
-        // Ternary operatörü kullanarak çözün.
-
 
         Scanner input = new Scanner(System.in);
 
@@ -16,7 +14,10 @@ public class Ornek05 {
         char harf = input.next().toLowerCase().charAt(0);
         input.close();
 
-        String sonuc = (harf == 'a' || harf == 'e' || harf == 'ı' || harf == 'i' || harf == 'o' || harf == 'ö' || harf == 'u' || harf == 'ü') ? "sesli" : "sessiz";
-        System.out.println("Girilen harf bir " + sonuc + " harf.");
+        if (harf == 'a' || harf == 'e' || harf == 'ı' || harf == 'i' || harf == 'o' || harf == 'ö' || harf == 'u' || harf == 'ü') {
+            System.out.println("Girilen harf bir sesli harf.");
+        } else {
+            System.out.println("Girilen harf bir sessiz harf.");
+        }
     }
 }

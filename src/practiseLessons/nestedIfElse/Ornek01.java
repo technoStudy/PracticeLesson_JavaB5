@@ -1,4 +1,4 @@
-package hafta_03.nestedIfElse;
+package practiseLessons.nestedIfElse;
 
 import java.util.Scanner;
 

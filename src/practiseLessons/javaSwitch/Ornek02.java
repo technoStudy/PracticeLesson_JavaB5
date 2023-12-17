@@ -1,4 +1,4 @@
-package hafta_03.javaSwitch;
+package practiseLessons.javaSwitch;
 
 import java.util.Scanner;
 

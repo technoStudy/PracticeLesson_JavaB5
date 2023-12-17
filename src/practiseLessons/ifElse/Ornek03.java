@@ -1,4 +1,4 @@
-package hafta_03.ifElse;
+package practiseLessons.ifElse;
 
 import java.util.Scanner;
 
