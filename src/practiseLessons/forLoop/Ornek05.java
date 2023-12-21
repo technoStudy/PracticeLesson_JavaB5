@@ -14,16 +14,16 @@ public class Ornek05 {
         System.out.print("Bir sayı girin: ");
         int sayi = input.nextInt();
 
-        int faktoriyel = 1;
+        int faktöriyel = 1;
         for (int i = 1; i <= sayi; i++) {
-            faktoriyel *= i;
+            faktöriyel *= i;
         }
 
 //        for (int i = sayi; i >= 1; i--) {
-//            faktoriyel = faktoriyel * i;
+//            faktöriyel = faktöriyel * i;
 //            // faktöriyel *= i;
 //        }
 
-        System.out.println(sayi + " sayısının faktöriyeli: " + faktoriyel);
+        System.out.println(sayi + " sayısının faktöriyeli: " + faktöriyel);
     }
 }
