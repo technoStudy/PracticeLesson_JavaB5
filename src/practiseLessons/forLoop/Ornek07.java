@@ -1,29 +1,24 @@
 package practiseLessons.forLoop;
 
+import java.util.Scanner;
+
 public class Ornek07 {
+
     public static void main(String[] args) {
 
-        // 1 dan 7 ye kadar (5 dahil) olan sayıların toplamını aşağıdaki yazdırınız. toplama tablosu
-        // 1 + 1 = 2
-        // 1 + 2 = 3
-        // 1 + 3 = 4
-        // 1 + 4 = 5
-        // 1 + 5 = 6
+        // Kullanıcıdan alınan metin içerisinde yer alan
+        // sesli harflerin sayısını veren Java programını yazınız.
 
-        // 2 + 1 = 3
-        // 2 + 2 = 4
-        // 2 + 3 = 5
-        // 2 + 4 = 6
-        // 2 + 5 = 7
-        // ......
-
-        for (int i = 1; i <= 7; i++) {
-            for (int j = 1; j <= 5; j++) {
-                System.out.println(i + " + " + j + " = " + (i + j));
-
+        Scanner input = new Scanner(System.in);
+        System.out.print("Lütfen bir metin giriniz: ");
+        String metin = input.nextLine().toLowerCase();
+        int sesliSayısı = 0; // sesli harf sayısını tutacak bir sayaç değişkeni tanımlıyoruz
+        for (int i = 0; i < metin.length(); i++) { // metnin uzunluğu kadar döngü
+            char harf = metin.charAt(i); // metnin i. karakterini alıyoruz
+            if (harf == 'a' || harf == 'e' || harf == 'ı' || harf == 'i' || harf == 'o' || harf == 'ö' || harf == 'u' || harf == 'ü') { // eğer karakter bir sesli harf ise
+                sesliSayısı++; // sayaç değişkenini bir artırıyoruz
             }
-            System.out.println();
         }
+        System.out.println("Girdiğiniz metindeki sesli harf sayısı: " + sesliSayısı); // sonucu ekrana yazdırıyoruz
     }
 }
-
