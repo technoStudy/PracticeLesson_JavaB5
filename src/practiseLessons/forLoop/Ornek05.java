@@ -19,6 +19,11 @@ public class Ornek05 {
             faktoriyel *= i;
         }
 
+//        for (int i = sayi; i >= 1; i--) {
+//            faktoriyel = faktoriyel * i;
+//            // faktöriyel *= i;
+//        }
+
         System.out.println(sayi + " sayısının faktöriyeli: " + faktoriyel);
     }
 }
