@@ -1,4 +1,4 @@
-package practiseLessons.array2D;
+package practiseLessons.arrays2D;
 
 public class Ornek03 {
 
