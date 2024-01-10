@@ -37,10 +37,12 @@ public class Ornek02 {
         System.out.println("TreeSet'in son elemanı: " + treeSet.last());
 
         // TreeSet'in en küçük elemanını yazdırın
-        System.out.println("TreeSet'in en küçük elemanı: " + treeSet.pollFirst());
+        System.out.println("TreeSet'in en küçük elemanı: " + treeSet.first());
+        // System.out.println("TreeSet'in en küçük elemanı: " + treeSet.pollFirst()); // Bu işlem en küçük elemanı treeSet'ten çıkarır aynı zamanda
 
         // TreeSet'in en büyük elemanını yazdırın
-        System.out.println("TreeSet'in en büyük elemanı: " + treeSet.pollLast());
+        System.out.println("TreeSet'in en büyük elemanı: " + treeSet.last());
+        // System.out.println("TreeSet'in en büyük elemanı: " + treeSet.pollLast()); //  Bu işlem en büyük elemanı treeSet'ten çıkarır aynı zamanda
 
         // TreeSet'in 20'den küçük ve 80'den büyük elemanlarını içeren bir alt kümesini oluşturun
         TreeSet<Integer> altKume = new TreeSet<>();
@@ -51,7 +53,7 @@ public class Ornek02 {
             }
         }
         // Alt kümenin elemanlarını yazdırın
-        System.out.println("TreeSet'in 20'den küçük ve 80'den büyük elemanları: " + altKume);
+        System.out.println("TreeSet'in 20'den büyük ve 80'den küçük elemanları: " + altKume);
 
     }
 }
