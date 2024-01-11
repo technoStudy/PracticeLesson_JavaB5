@@ -6,23 +6,25 @@ import java.util.Scanner;
 
 public class Ornek03 {
 
-//    Talep: Restoran uygulaması geliştirme
-//
-//    Restoran, kullanıcıların menüden sipariş verebileceği bir uygulama geliştirmek istiyor.
-//    Aşağıdaki gereksinimlere uygun bir Java programı yazmanız gerekmektedir:
-//
-//    1- Restoranın menüsü, yemek adları ve fiyatlarından oluşan bir HashMap veri yapısı kullanılarak tanımlanmalıdır.
-//    2- Kullanıcıya menüdeki yemekleri ve fiyatlarını gösteren bir liste sunulmalıdır.
-//    3- Kullanıcı, sipariş listesini girmek için programdan bir giriş istemelidir. Siparişler virgülle
-//       ayrılmış olarak girilmelidir.
-//    4- Program, kullanıcının girdiği siparişlerin toplam fiyatını hesaplamalı ve ekrana yazdırmalıdır.
-//    5- Program, kullanıcının girdiği siparişlerin indirim tutarını hesaplamalı ve ekrana yazdırmalıdır.
-//       İndirimler, özel tekliflerin bulunduğu bir HashMap veri yapısı kullanılarak tanımlanmalıdır.
-//    6- Program, toplam tutarı hesaplayarak ekrana yazdırmalıdır (toplam fiyat - indirim tutarı).
-//    7- Kullanıcının girdiği sipariş listesini ekrana yazdırmalıdır.
-//    İstenen özelliklere sahip bir Java programı geliştirerek, restoranın taleplerini karşılayabilirsiniz.
+    /**
+     * Talep: Restoran uygulaması geliştirme
+     * Restoran, kullanıcıların menüden sipariş verebileceği bir uygulama geliştirmek istiyor.
+     * Aşağıdaki gereksinimlere uygun bir Java programı yazmanız gerekmektedir:
+     * <p>
+     * 1- Restoranın menüsü, yemek adları ve fiyatlarından oluşan bir HashMap veri yapısı kullanılarak tanımlanmalıdır.
+     * 2- Kullanıcıya menüdeki yemekleri ve fiyatlarını gösteren bir liste sunulmalıdır.
+     * 3- Kullanıcı, sipariş listesini girmek için programdan bir giriş istemelidir. Siparişler virgülle
+       ayrılmış olarak girilmelidir.
+     * 4- Program, kullanıcının girdiği siparişlerin toplam fiyatını hesaplamalı ve ekrana yazdırmalıdır.
+     * 5- Program, kullanıcının girdiği siparişlerin indirim tutarını hesaplamalı ve ekrana yazdırmalıdır.
+       İndirimler, özel tekliflerin bulunduğu bir HashMap veri yapısı kullanılarak tanımlanmalıdır.
+     * 6- Program, toplam tutarı hesaplayarak ekrana yazdırmalıdır (toplam fiyat - indirim tutarı).
+     * 7- Kullanıcının girdiği sipariş listesini ekrana yazdırmalıdır.
+     * İstenen özelliklere sahip bir Java programı geliştirerek, restoranın taleplerini karşılayabilirsiniz.
+     */
 
     public static void main(String[] args) {
+
         Map<String, Double> menu = new HashMap<>();
 
         // Yemekleri ekleme
@@ -32,25 +34,27 @@ public class Ornek03 {
         menu.put("Salata", 8.99);
         menu.put("Tatlı", 15.99);
 
-        // Özel teklifleri ekleyin
-        Map<String, Double> ozelTeklifler = new HashMap<>();
-        ozelTeklifler.put("Kebap", 0.2); // Kebap için %20 indirim
-        ozelTeklifler.put("Tatlı", 0.1); // Tatlı için %10 indirim
-
         // Yemek listesini ekrana yazdırma
+        System.out.println("*****  İSTANBUL KEBAP EVİ  *****");
+        System.out.println("*****     HOŞGELDİNİZ!     *****\n");
         System.out.println("Menü:");
         for (Map.Entry<String, Double> entry : menu.entrySet()) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Sipariş listesini girin (virgülle ayırarak): ");
+        System.out.print("\nSipariş listesini girin (virgülle ayırarak): ");
         String siparisListesi = scanner.nextLine();
         String[] siparisler = siparisListesi.split(",");
 
         // Siparişin toplam fiyatını hesaplama
         double toplamFiyat = hesaplaToplamFiyat(menu, siparisler);
-        System.out.println("Toplam Fiyat: " + toplamFiyat);
+        System.out.println("\nToplam Fiyat: " + toplamFiyat);
+
+        // Özel teklifleri ekleyin
+        Map<String, Double> ozelTeklifler = new HashMap<>();
+        ozelTeklifler.put("Kebap", 0.2); // Kebap için %20 indirim
+        ozelTeklifler.put("Tatlı", 0.1); // Tatlı için %10 indirim
 
         // İndirim tutarını hesaplama
         double indirimTutari = hesaplaIndirimTutari(menu, ozelTeklifler, siparisler);
@@ -61,10 +65,12 @@ public class Ornek03 {
         System.out.println("Toplam Tutar: " + toplamTutar);
 
         // Sipariş listesini ekrana yazdırma
-        System.out.println("Siparişleriniz:");
+        System.out.println("\nSiparişleriniz:");
         for (String siparis : siparisler) {
             System.out.println(siparis);
         }
+        System.out.println("\n*****               Afiyet Olsun!                 *****");
+        System.out.println("***** Bizi Tercih Ettiğiniz için Teşekkür Ederiz! *****");
     }
 
     public static double hesaplaToplamFiyat(Map<String, Double> menu, String[] siparisler) {
