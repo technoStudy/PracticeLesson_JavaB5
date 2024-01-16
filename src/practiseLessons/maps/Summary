@@ -30,3 +30,7 @@ Değer güncelleme: put() metoduyla bir anahtarın değerini güncelleyebilirsin
 Değer silme: remove() metoduyla bir anahtar-değer çiftini silebilirsiniz.
 Map boyutu: size() metoduyla Map'in boyutunu alabilirsiniz.
 Anahtar kontrolü: containsKey() metoduyla bir anahtarın Map'te olup olmadığını kontrol edebilirsiniz.
+
+ for (Map.Entry<Integer, String> keyAndValue : hashMap.entrySet()) {
+            System.out.println(keyAndValue.getKey() + "-" + keyAndValue.getValue());
+        }

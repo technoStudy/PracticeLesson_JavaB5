@@ -1,0 +1,9 @@
+Soru:
+Java yazılım dilinde aşağıdaki kabul kriterlerine uygun şekilde
+toplama, çıkarma, bölme ve çarpma işlemlerini yapabilen
+basit bir hesap makinesi kodu yazınız.
+
+Kabul Kriterleri:
+1)- Kullanılacak metotlar, ayrı bir classta oluşturulmalı.
+2)- Toplama ve çıkarma işlemleri statik metotlar ile
+    çarpma ve bölme işlemleri ise non statik metotlar ile yapılmalı.
