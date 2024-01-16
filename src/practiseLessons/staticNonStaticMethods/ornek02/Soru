@@ -1,0 +1,28 @@
+
+Soru:
+
+Bir `Dikdortgen` sınıfı oluşturmanızı istiyoruz.
+Dikdörtgenin alanını hesaplayabilen non-static bir metot ve
+dikdörtgenin çevresini hesaplayabilen static bir metot içermelidir.
+Ayrıca, `Dikdortgen` sınıfından bir nesne oluşturarak
+bu nesne üzerinden alan ve çevre hesaplamalarını yapabilmeliyiz.
+
+İpuçları:
+
+1. `Dikdortgen` sınıfını oluşturun ve içerisinde `alanHesapla()` adında
+bir non-static metot tanımlayın. Bu metot, dikdörtgenin uzunluğu ve genişliği
+ parametre olarak almalı ve dikdörtgenin alanını hesaplayarak geri döndürmelidir.
+
+2. `Dikdortgen` sınıfında `cevreHesapla()` adında bir static metot tanımlayın.
+Bu metot, dikdörtgenin uzunluğu ve genişliği parametre olarak almalı ve
+dikdörtgenin çevresini hesaplayarak geri döndürmelidir.
+
+3. `Dikdortgen` sınıfından bir nesne oluşturun.
+
+4. Oluşturduğunuz nesne üzerinden `alanHesapla()` metotunu kullanarak
+bir dikdörtgenin alanını hesaplayın.
+
+5. `Dikdortgen` sınıfı üzerinden `cevreHesapla()` metotunu kullanarak
+bir dikdörtgenin çevresini hesaplayın.
+
+
