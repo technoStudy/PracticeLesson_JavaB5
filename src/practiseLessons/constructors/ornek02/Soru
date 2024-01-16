@@ -1,0 +1,12 @@
+Soru:
+
+Bir Kitap sınıfı oluşturmanız isteniyor.
+Bu sınıfın özellikleri isim, yazar ve sayfaSayisi olmalıdır.
+isim ve yazar özellikleri boş bir şekilde tanımlanamaz,
+dolayısıyla bu değerlerin girilmesi zorunludur.
+Ayrıca, sayfaSayisi değeri verilmezse varsayılan olarak 0 olarak atanmalıdır.
+
+Kitap sınıfının aşağıdaki metotları da olmalıdır:
+bilgileriGoster(): Kitabın ismini, yazarını ve sayfa sayısını ekrana yazdıran bir metot.
+
+Bu gereksinimlere uygun olarak Kitap sınıfını ve constructor'ını oluşturun.
