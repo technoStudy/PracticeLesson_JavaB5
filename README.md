@@ -1,4 +1,4 @@
-#Java Practices
+# Core Java Practices
 
 ## Arrays
 ## ArrayLists
