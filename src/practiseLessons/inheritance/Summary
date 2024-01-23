@@ -1,0 +1,23 @@
+Inheritance, nesne tabanlı programlama (OOP) paradigmasının önemli bir bileşenidir
+ve Java gibi dillerde kullanılır. Inheritance sayesinde bir sınıf,
+başka bir sınıftan özelliklerini ve davranışlarını miras alabilir.
+
+- İki temel kavram: üst sınıf (superclass) ve alt sınıf (subclass).
+Üst sınıf, miras veren sınıfı temsil ederken, alt sınıf, miras alan sınıfı temsil eder.
+
+- Miras alma ilişkisi, "is-a" ilişkisiyle ifade edilir.
+Örneğin, "Kedi bir Hayvan'dır" ifadesinde Kedi alt sınıfı, Hayvan ise üst sınıfı temsil eder.
+
+- Inheritance avantajları:
+  - Kod tekrarını önler ve kodun yeniden kullanılabilirliğini artırır.
+  - Kodun daha okunabilir ve sürdürülebilir olmasını sağlar.
+  - Sınıflar arasında hiyerarşik bir yapı oluşturarak kod organizasyonunu kolaylaştırır.
+
+- Java'da inheritance kullanımı:
+  - Bir sınıfın başka bir sınıftan miras alabilmesi için **extends** anahtar kelimesi kullanılır.
+  - Alt sınıf, üst sınıfın tüm public ve protected özelliklerini ve davranışlarını miras alır.
+  - Alt sınıf, üst sınıftan miras aldığı özellikleri isteğe bağlı olarak değiştirebilir veya yeni özellikler ekleyebilir.
+
+- Inheritance örnekleri:
+  - Bir Araba sınıfı düşünelim. Bu sınıfın altında Sedan, SUV ve Hatchback gibi alt sınıflar olabilir.
+  Her alt sınıf, Araba sınıfından özelliklerini miras alırken, kendi özel özelliklerini de ekleyebilir.
