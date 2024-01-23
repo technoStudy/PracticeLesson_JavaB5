@@ -28,6 +28,16 @@ public class HesapHareketi {
     public String getIslemTuru() {
         return islemTuru;
     }
+
+    @Override
+    public String toString() {
+        return "HesapHareketi{" +
+                "tarih='" + tarih + '\'' +
+                ", aciklama='" + aciklama + '\'' +
+                ", miktar=" + miktar +
+                ", islemTuru='" + islemTuru + '\'' +
+                '}';
+    }
 }
 
 /**

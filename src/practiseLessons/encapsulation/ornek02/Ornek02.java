@@ -14,19 +14,13 @@ public class Ornek02 {
         // Hesap hareketlerini alma
         List<HesapHareketi> hesapHareketleri = bankaHesabi.getHesapHareketleri();
 
-        // Hesap hareketlerini ekrana yazdırma
-        for (HesapHareketi hareket : hesapHareketleri) {
-            System.out.println("Tarih: " + hareket.getTarih());
-            System.out.println("Açıklama: " + hareket.getAciklama());
-            System.out.println("Miktar: " + hareket.getMiktar());
-            System.out.println("İşlem Türü: " + hareket.getIslemTuru());
-            System.out.println("----------------------");
-        }
+        // Banka hesabının tüm bilgilerini ekrana yazdırma
+        System.out.println("bankaHesabi = " + bankaHesabi);
     }
 }
 
 /**
  Ornek02 sınıfında BankaHesabi nesnesi oluşturulmuş ve bu nesne üzerinden hesapHareketiEkle metodu
  çağrılarak bir hesap hareketi eklenmiştir. Ardından, getHesapHareketleri metodu ile hesap hareketleri alınmış
- ve for döngüsü kullanılarak bu hareketler ekrana yazdırılmıştır.
+ ve banka hesabı bilgileri ekrana yazdırılmıştır.
  */
