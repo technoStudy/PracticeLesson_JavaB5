@@ -1,21 +1,3 @@
-BankaHesabi sınıfı müşteri bilgilerini ve hesap hareketlerini tutmak için kullanılıyor.
-Bu sınıfın özellikleri (ad, soyad, hesap numarası, hesap bakiyesi) private olarak tanımlanmış
-ve bu özelliklere erişim için getter ve setter metodları kullanılarak
-müşteri bilgilerinin doğrudan erişilebilir olmasının önüne geçilmiştir.
-
-Ayrıca, BankaHesabi sınıfında hesapHareketiEkle metodu tanımlanmıştır.
-Bu metod, tarih, açıklama, miktar ve işlem türü parametrelerini alarak
-yeni bir HesapHareketi nesnesi oluşturur ve bu nesneyi hesapHareketleri listesine ekler.
-Bu sayede, hesap hareketlerinin güvenli bir şekilde eklenmesi sağlanmıştır.
-
-HesapHareketi sınıfı ise tarih, açıklama, miktar ve işlem türü gibi özellikleri
-tutmak için kullanılmıştır. Bu sınıfın da özellikleri private olarak tanımlanmış
-ve bu özelliklere erişim için getter metodları kullanılmıştır.
-
-Ornek02 sınıfında ise BankaHesabi nesnesi oluşturulmuş ve bu nesne üzerinden hesapHareketiEkle metodu
-çağrılarak bir hesap hareketi eklenmiştir.Ardından, getHesapHareketleri metodu ile hesap hareketleri alınmış
-ve for döngüsü kullanılarak bu hareketler ekrana yazdırılmıştır.
-
 Bu kod örneği, encapsulation prensibini kullanarak müşteri bilgilerini ve hesap hareketlerini
 güvenli bir şekilde saklamaktadır. Müşteri bilgilerine doğrudan erişim engellenmiş
 ve sadece getter ve setter metodları aracılığıyla erişim sağlanmıştır. Hesap hareketleri ise
