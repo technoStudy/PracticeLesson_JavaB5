@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BankaHesabi {
-    private String musteriAdi;
-    private String musteriSoyadi;
-    private int hesapNumarasi;
-    private double hesapBakiyesi;
-    private List<HesapHareketi> hesapHareketleri;
+    private final int hesapNumarasi; // Hesap numarasını temsil eden özellik
+    private final List<HesapHareketi> hesapHareketleri; // Hesap hareketlerini tutan liste
+    private String musteriAdi; // Müşteri adını temsil eden özellik
+    private String musteriSoyadi; // Müşteri soyadını temsil eden özellik
+    private double hesapBakiyesi; // Hesap bakiyesini temsil eden özellik
 
     public BankaHesabi(String musteriAdi, String musteriSoyadi, int hesapNumarasi, double hesapBakiyesi) {
         this.musteriAdi = musteriAdi;
         this.musteriSoyadi = musteriSoyadi;
         this.hesapNumarasi = hesapNumarasi;
         this.hesapBakiyesi = hesapBakiyesi;
-        this.hesapHareketleri = new ArrayList<>();
+        this.hesapHareketleri = new ArrayList<>(); // Hesap hareketleri listesini başlatma
     }
 
     public String getMusteriAdi() {
@@ -48,7 +48,7 @@ public class BankaHesabi {
 
     public void hesapHareketiEkle(String tarih, String aciklama, double miktar, String islemTuru) {
         HesapHareketi hareket = new HesapHareketi(tarih, aciklama, miktar, islemTuru);
-        hesapHareketleri.add(hareket);
+        hesapHareketleri.add(hareket); // Yeni hesap hareketini listeye ekleme
     }
 
     public List<HesapHareketi> getHesapHareketleri() {
@@ -57,13 +57,13 @@ public class BankaHesabi {
 }
 
 /**
- BankaHesabi sınıfı müşteri bilgilerini ve hesap hareketlerini tutmak için kullanılıyor.
- Bu sınıfın özellikleri (ad, soyad, hesap numarası, hesap bakiyesi) private olarak tanımlanmış
- ve bu özelliklere erişim için getter ve setter metodları kullanılarak
- müşteri bilgilerinin doğrudan erişilebilir olmasının önüne geçilmiştir.
-
- Ayrıca, BankaHesabi sınıfında hesapHareketiEkle metodu tanımlanmıştır.
- Bu metod, tarih, açıklama, miktar ve işlem türü parametrelerini alarak
- yeni bir HesapHareketi nesnesi oluşturur ve bu nesneyi hesapHareketleri listesine ekler.
- Bu sayede, hesap hareketlerinin güvenli bir şekilde eklenmesi sağlanmıştır.
+ * BankaHesabi sınıfı müşteri bilgilerini ve hesap hareketlerini tutmak için kullanılıyor.
+ * Bu sınıfın özellikleri (ad, soyad, hesap numarası, hesap bakiyesi) private olarak tanımlanmış
+ * ve bu özelliklere erişim için getter ve setter metodları kullanılarak
+ * müşteri bilgilerinin doğrudan erişilebilir olmasının önüne geçilmiştir.
+ * <p>
+ * Ayrıca, BankaHesabi sınıfında hesapHareketiEkle metodu tanımlanmıştır.
+ * Bu metod, tarih, açıklama, miktar ve işlem türü parametrelerini alarak
+ * yeni bir HesapHareketi nesnesi oluşturur ve bu nesneyi hesapHareketleri listesine ekler.
+ * Bu sayede, hesap hareketlerinin güvenli bir şekilde eklenmesi sağlanmıştır.
  */
