@@ -1,0 +1,15 @@
+Bu projede, `Calisan` sınıfı ve ondan türetilen `Muhasebeci` ve `Yonetici` sınıfları oluşturulmuştur.
+ `Calisan` sınıfı, tüm çalışanların ortak özelliklerini (ad ve maaş) ve davranışlarını (bilgileri yazdırma) içermektedir.
+ `Muhasebeci` sınıfı, `Calisan` sınıfından türetilmiştir ve `maasHesapla()` metodu ile muhasebecinin maaşını hesaplamaktadır.
+ `Yonetici` sınıfı da `Calisan` sınıfından türetilmiştir ve `departman` özelliği ile yöneticinin çalıştığı departmanı tutmaktadır.
+
+Bu projede kalıtım (inheritance) kullanılmıştır.
+`Muhasebeci` ve `Yonetici` sınıfları, `Calisan` sınıfından türetilmiştir.
+Bu sayede, `Calisan` sınıfındaki özellikler ve davranışlar, `Muhasebeci` ve `Yonetici` sınıflarında da kullanılabilir hale gelmiştir.
+Örneğin, `Muhasebeci` sınıfı, `Calisan` sınıfındaki `ad` ve `maas` özelliklerini kullanabilir ve `bilgileriYazdir()` metodunu çağırabilir.
+
+Kalıtım sayesinde, benzer özellikleri olan sınıfları tek bir sınıfta toplayarak kod tekrarını önleyebiliriz.
+Ayrıca, üst sınıfta yer alan özellikler ve davranışlar alt sınıflarda da kullanılabilir olduğundan, kodun yeniden kullanılabilirliği artar.
+
+Bu projede ayrıca, `super` anahtar kelimesi kullanılarak üst sınıfın özelliklerine ve davranışlarına erişilmiştir.
+Örneğin, `Muhasebeci` sınıfında `maasHesapla()` metodunda `super.getMaas()` metodu kullanılarak `Calisan` sınıfının `maas` özelliğine erişilmiştir.

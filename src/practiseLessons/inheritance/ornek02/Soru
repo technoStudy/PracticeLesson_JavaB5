@@ -1,0 +1,20 @@
+
+Soru:
+
+1)- Bir Calisan sınıfı oluşturun ve içerisinde çalışanın adını
+    ve maaşını temsil edecek özellikler tanımlayın.
+
+2)- Calisan sınıfına bilgileriYazdir() adında bir metod ekleyin.
+    Bu metod, çalışanın adını ve maaşını ekrana yazdırmalıdır.
+
+3)- Muhasebeci sınıfını Calisan sınıfından türetin.
+    Muhasebeci sınıfına maasHesapla() adında bir metod ekleyin.
+    Bu metod, muhasebecinin maaşını hesaplamalı ve ekrana yazdırmalıdır.
+
+4)- Yönetici sınıfını Calisan sınıfından türetin.
+    Yönetici sınıfına departman adında bir özellik ekleyin.
+    Yönetici sınıfının bilgileriYazdir() metodunu @Override ederek,
+    çalışanın adını, maaşını ve departmanını ekrana yazdırmasını sağlayın.
+
+5)- Ana programda bir Muhasebeci ve bir Yönetici nesnesi oluşturun.
+    Bu nesnelerin özelliklerini ve metodlarını kullanarak sonuçları ekrana yazdırın.
