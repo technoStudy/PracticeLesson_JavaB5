@@ -6,6 +6,8 @@ public class Ornek02 {
         // Muhasebeci nesnesi oluşturma ve bilgilerini ayarlama
         Muhasebeci muhasebeci = new Muhasebeci("Ahmet", 5000);
 
+        System.out.println("Muhasebeci :");
+
         // Muhasebecinin bilgilerini yazdırma
         muhasebeci.bilgileriYazdir();
 
@@ -13,6 +15,8 @@ public class Ornek02 {
         muhasebeci.maasHesapla();
 
         System.out.println("--------------------");
+
+        System.out.println("Yönetici: ");
 
         // Yönetici nesnesi oluşturma ve bilgilerini ayarlama
         Yonetici yonetici = new Yonetici("Ayşe", 8000, "İnsan Kaynakları");
