@@ -57,35 +57,35 @@ public class BankaHesabi {
 
 
 
-    @Override
-    public String toString() {
-        return "BankaHesabi{" +
-                "hesapNumarasi=" + hesapNumarasi +
-                ", hesapHareketleri=" + hesapHareketleri +
-                ", musteriAdi='" + musteriAdi + '\'' +
-                ", musteriSoyadi='" + musteriSoyadi + '\'' +
-                ", hesapBakiyesi=" + hesapBakiyesi +
-                '}';
-    }
-
 //    @Override
 //    public String toString() {
-//        String result = "Ad: " + this.musteriAdi+ "\n"
-//                + "Soyad: " + this.musteriSoyadi + "\n"
-//                + "Hesap Numarası: " + hesapNumarasi + "\n"
-//                + "Bakiye: " + this.hesapBakiyesi + "\n\n";
-//
-//        result += "Hesap Hareketleri:\n";
-//        for (HesapHareketi hareket : hesapHareketleri) {
-//            result += "Tarih: " + hareket.getTarih() + "\n"
-//                    + "Açıklama: " + hareket.getAciklama() + "\n"
-//                    + "Miktar: " + hareket.getMiktar() + "\n"
-//                    + "İşlem Türü: " + hareket.getIslemTuru() + "\n"
-//                    + "----------------------\n";
-//        }
-//
-//        return result;
+//        return "BankaHesabi{" +
+//                "hesapNumarasi=" + hesapNumarasi +
+//                ", hesapHareketleri=" + hesapHareketleri +
+//                ", musteriAdi='" + musteriAdi + '\'' +
+//                ", musteriSoyadi='" + musteriSoyadi + '\'' +
+//                ", hesapBakiyesi=" + hesapBakiyesi +
+//                '}';
 //    }
+
+    @Override
+    public String toString() {
+        String result = "Ad: " + this.musteriAdi+ "\n"
+                + "Soyad: " + this.musteriSoyadi + "\n"
+                + "Hesap Numarası: " + hesapNumarasi + "\n"
+                + "Bakiye: " + this.hesapBakiyesi + "\n\n";
+
+        result += "Hesap Hareketleri:\n";
+        for (HesapHareketi hareket : hesapHareketleri) {
+            result += "Tarih: " + hareket.getTarih() + "\n"
+                    + "Açıklama: " + hareket.getAciklama() + "\n"
+                    + "Miktar: " + hareket.getMiktar() + "\n"
+                    + "İşlem Türü: " + hareket.getIslemTuru() + "\n"
+                    + "----------------------\n";
+        }
+
+        return result;
+    }
 }
 
 /**
