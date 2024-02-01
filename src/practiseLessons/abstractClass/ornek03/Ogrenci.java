@@ -52,5 +52,5 @@ abstract class Ogrenci {
  * Ayrıca dersEkle ve dersSil adında iki metod da tanımlanmıştır.
  * dersEkle metodu, öğrencinin kayıtlı dersler listesine yeni bir ders eklerken,
  * dersSil metodu öğrencinin kayıtlı dersler listesinden bir dersi silmektedir.
- * Bu sınıf soyut olduğundan, bilgileriYazdir adında bir metod tanımlanmamıştır.
+ * Bu sınıf soyut olduğundan, bilgileriYazdir metodu bodysiz olarak tanımlanmıştır.
  */
