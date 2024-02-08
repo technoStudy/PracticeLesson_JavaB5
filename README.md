@@ -11,3 +11,4 @@
 ## Escape Characters
 ## For Loops
 ## If Else
+## Inheritance
