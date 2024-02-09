@@ -12,3 +12,4 @@
 ## For Loops
 ## If Else
 ## Inheritance
+## Java Switch
