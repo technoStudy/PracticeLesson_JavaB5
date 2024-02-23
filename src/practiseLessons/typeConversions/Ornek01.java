@@ -20,12 +20,12 @@ Bu değişkenleri kullanarak aşağıdaki işlemleri gerçekleştirin:
         // 1. sayi'yi double türüne dönüştürme
         double doubleSayi = sayi;
         // 2. ondalikSayi'yi int türüne dönüştürme
-        int tamSayi=(int)ondalikSayi;
+        int tamSayi = (int) ondalikSayi;
         // 3. sayi ve ondalikSayi'yi toplama
         double toplam = sayi + ondalikSayi;
         System.out.println("toplam = " + toplam);
         // 4. toplam'ı tamsayıya dönüştürme ve ekrana yazdırma
-        int toplamSayi=(int)toplam;
+        int toplamSayi = (int) toplam;
         System.out.println("toplamSayi = " + toplamSayi);
 
 
@@ -40,8 +40,8 @@ toplam mesafeyi hesaplayan bir program yazın. (Mesafe = Zaman x Hız formülü)
         String dakika = "1.5";
         String hiz = "60";
         double sayisure = Double.parseDouble(dakika);
-        double sayihiz= Double.parseDouble(hiz);
-        double mesafe= sayihiz/sayisure;
+        double sayihiz = Double.parseDouble(hiz);
+        double mesafe = sayihiz / sayisure;
         System.out.println("mesafe = " + mesafe);
 
 /*
@@ -55,7 +55,7 @@ adımda elde ettiğiniz değerleri ekrana yazdırın.
         String payda = "5";
         int iPay = Integer.parseInt(pay);
         int iPayda = Integer.parseInt(payda);
-        double dSonuc = iPay / (double) iPayda ;
+        double dSonuc = iPay / (double) iPayda;
         System.out.println("dSonuc = " + dSonuc);
 
 /*Soru 3:
@@ -64,13 +64,7 @@ Bir banka, müşterisine yatırdığı paraya yılda %5 faiz ödemektedir. Bir m
 değerini hesaplayan bir program yazın.
 Not: Sonuç String typinde olsun
 */
-
-
-
-
     }
-
-
 }
 
 
