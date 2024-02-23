@@ -13,14 +13,10 @@ public class Ornek03 {
         do {
             System.out.println("Bir sayı girin (Negatif sayı girilince programdan çıkar): ");
             sayi = scanner.nextInt();
-            if (sayi >= 0){
+            if (sayi >= 0) {
                 System.out.println("Merhaba!");
             }
-        }
-        while (sayi >=0);
-
+        } while (sayi >= 0);
         System.out.println("Program sonlandırıldı.");
-
-
     }
 }

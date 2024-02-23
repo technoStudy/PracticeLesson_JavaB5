@@ -35,25 +35,20 @@ public class Ornek04 {
 
 
         int sayac = 0;
-        while (sayac < 3){
+        while (sayac < 3) {
             System.out.print("Login Password : ");
             String sifreLogin = scanner.nextLine();
 
-            if (sifreLogin.equals(sifre)){
+            if (sifreLogin.equals(sifre)) {
                 System.out.println("LOGİN BAŞARILI");
                 break;
-            }
-            else {
+            } else {
                 System.out.println("ŞİFRE HATALI");
             }
-            if (sayac==2){
+            if (sayac == 2) {
                 System.out.println("Üç kez yanlış giriş yapıldı. Program sonlandırılıyor.");
             }
             sayac++;
         }
-
-
-
-
     }
 }

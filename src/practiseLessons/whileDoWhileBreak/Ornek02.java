@@ -11,9 +11,9 @@ public class Ornek02 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Metin Giriniz : ");
         String giris = scanner.nextLine();
-        while (!giris.equalsIgnoreCase("quit")){ //true
+        while (!giris.equalsIgnoreCase("quit")) { //true
 
-            if (!giris.equalsIgnoreCase("quit")){
+            if (!giris.equalsIgnoreCase("quit")) {
                 System.out.println("Girilen metin : " + giris);
             }
             System.out.print("Metin girin (çıkmak için 'quit' yazın) : ");
@@ -21,7 +21,5 @@ public class Ornek02 {
 
         }
         System.out.println("Program sonlandırıldı.");
-
-
     }
 }

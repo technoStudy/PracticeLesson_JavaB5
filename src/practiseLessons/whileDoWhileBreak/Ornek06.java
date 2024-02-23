@@ -5,7 +5,5 @@ public class Ornek06 {
 
 // Soru Kullanıcnın gireceği bir sayının basamaklarına göre tersi olan sayıyı bulunuz
 
-
-
     }
 }

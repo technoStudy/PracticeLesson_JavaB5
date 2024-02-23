@@ -19,23 +19,17 @@ public class Ornek01 {
         String trimCumle = cumle.trim();
         String kelime = "";
         int i = 0;
-        while (i < trimCumle.length()){
+        while (i < trimCumle.length()) {
             char karakter = trimCumle.charAt(i);
 //            System.out.println("karakter = " + karakter);
-            if (karakter !=' '){
+            if (karakter != ' ') {
                 kelime += karakter; // m + e + r + h + a + b + a (merhaba)
-            }
-            else {
+            } else {
                 System.out.println("kelime = " + kelime);
-                kelime="";
+                kelime = "";
             }
             i++;
         }
-
         System.out.println("kelime = " + kelime);
-            }
-
-
-
-
+    }
 }

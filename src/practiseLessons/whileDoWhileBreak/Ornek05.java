@@ -13,19 +13,14 @@ public class Ornek05 {
         System.out.println("Sayı giriniz : ");
         int sayiGir = scanner.nextInt();
 
-       int sayac = 0;
+        int sayac = 0;
 
-        while (sayiGir>0){
+        while (sayiGir > 0) {
 
             sayiGir = sayiGir / 10;
 
             sayac++;
         }
-
-        System.out.println("Basamak sayısı : "+ sayac);
-
-
-
-
+        System.out.println("Basamak sayısı : " + sayac);
     }
 }
