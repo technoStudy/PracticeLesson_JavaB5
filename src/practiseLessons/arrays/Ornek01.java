@@ -6,13 +6,12 @@ public class Ornek01 {
 
     public static void main(String[] args) {
 
-
-        int  sayi = 5;
-        int [] sayiArray = new int[5];
-      //  [6][14][21][7][66]  uzunluk = 5 "lenght"
-      //  [0][1][2][3][4]  index = 5
+        int sayi = 5;
+        int[] sayiArray = new int[5];
+        //  [6][14][21][7][66]  uzunluk = 5 "lenght"
+        //  [0][1][2][3][4]  index = 5
         String ad = "Bilal";
-        String adArray [] = new String[15];
+        String[] adArray = new String[15];
         //  ["bir"]["iki"]["üç"]["dört"]["beş"]  uzunluk = 5 "lenght"
         //     [0]   [1]    [2]   [3]     [4]  index = 5
 
@@ -20,7 +19,7 @@ public class Ornek01 {
         // 5 elemanlı bir tamsayı dizisi oluşturma ve ekrana
         // tek tek yazdırma işlemi yapınız
 
-        int soru1Array []= new int[6];
+        int[] soru1Array = new int[6];
         soru1Array[0] = 6;
         soru1Array[1] = 14;
         soru1Array[2] = 21;
@@ -37,15 +36,9 @@ public class Ornek01 {
         System.out.println(soru1Array[5]);
 
         for (int i = 0; i < soru1Array.length; i++) {
-          System.out.println("arrays : "+soru1Array[i]);
+            System.out.println("arrays : " + soru1Array[i]);
 
         }
-
-       //System.out.println("bunun cevabı ne : " + soru1Array.length);
-
-
-
-
-
+        //System.out.println("bunun cevabı ne : " + soru1Array.length);
     }
 }
