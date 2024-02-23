@@ -1,8 +1,7 @@
-package Gun_17._00_Playing;
+package exceptionHandling._00_Playing;
 
 import javax.sound.sampled.*;
 import java.io.File;
-import java.io.IOException;
 import java.util.List;
 import java.util.Random;
 

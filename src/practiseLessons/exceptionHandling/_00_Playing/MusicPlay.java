@@ -1,10 +1,10 @@
-package Gun_17._00_Playing;
+package exceptionHandling._00_Playing;
 
-import Gun_17._01_PopMusic.PopMusic;
-import Gun_17._02_RockMusic.RockMusic;
-import Gun_17._03_RapMusic.RapMusic;
-import Gun_17._04_YabanciMusic.YabanciMusic;
-import Gun_17._05_ArabeskMusic.ArabeskMusic;
+import exceptionHandling._01_PopMusic.PopMusic;
+import exceptionHandling._02_RockMusic.RockMusic;
+import exceptionHandling._03_RapMusic.RapMusic;
+import exceptionHandling._04_YabanciMusic.YabanciMusic;
+import exceptionHandling._05_ArabeskMusic.ArabeskMusic;
 
 import java.util.Scanner;
 

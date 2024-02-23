@@ -1,7 +1,7 @@
-package Gun_16._01_PopMusic;
+package interface_._01_PopMusic;
 
-import Gun_16._00_Playing.IMusic;
-import Gun_16._00_Playing.MusicDriving;
+import interface_._00_Playing.IMusic;
+import interface_._00_Playing.MusicDriving;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;

@@ -1,10 +1,10 @@
-package Gun_16._00_Playing;
+package interface_._00_Playing;
 
-import Gun_16._01_PopMusic.PopMusic;
-import Gun_16._02_RockMusic.RockMusic;
-import Gun_16._03_RapMusic.RapMusic;
-import Gun_16._04_YabanciMusic.YabanciMusic;
-import Gun_16._05_ArabeskMusic.ArabeskMusic;
+import interface_._01_PopMusic.PopMusic;
+import interface_._02_RockMusic.RockMusic;
+import interface_._03_RapMusic.RapMusic;
+import interface_._04_YabanciMusic.YabanciMusic;
+import interface_._05_ArabeskMusic.ArabeskMusic;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;

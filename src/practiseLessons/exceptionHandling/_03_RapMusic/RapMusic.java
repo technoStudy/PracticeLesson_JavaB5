@@ -1,7 +1,7 @@
-package Gun_17._03_RapMusic;
+package exceptionHandling._03_RapMusic;
 
-import Gun_17._00_Playing.IMusic;
-import Gun_17._00_Playing.MusicDriving;
+import exceptionHandling._00_Playing.IMusic;
+import exceptionHandling._00_Playing.MusicDriving;
 
 import java.util.ArrayList;
 import java.util.List;

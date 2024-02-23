@@ -1,7 +1,7 @@
-package Gun_16._03_RapMusic;
+package interface_._03_RapMusic;
 
-import Gun_16._00_Playing.IMusic;
-import Gun_16._00_Playing.MusicDriving;
+import interface_._00_Playing.IMusic;
+import interface_._00_Playing.MusicDriving;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;

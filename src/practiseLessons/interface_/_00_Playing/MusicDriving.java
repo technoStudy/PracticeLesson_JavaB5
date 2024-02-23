@@ -1,4 +1,4 @@
-package Gun_16._00_Playing;
+package interface_._00_Playing;
 
 import javax.sound.sampled.*;
 import java.io.File;
