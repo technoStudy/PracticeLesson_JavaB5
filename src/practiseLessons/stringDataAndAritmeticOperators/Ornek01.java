@@ -30,7 +30,7 @@ public class Ornek01 {
         //Girilen cümlenin sondan 2 karakteri yazdıran programı kodlayınız.
         System.out.print("Bir cümle giriniz : ");
         String substringCumle = scanner.nextLine();
-        String sonIkiKarakter = substringCumle.substring(substringCumle.length()-2);
+        String sonIkiKarakter = substringCumle.substring(substringCumle.length() - 2);
         System.out.println("sonIkiKarakter = " + sonIkiKarakter);
 
         //substring(int başlangıçIndex, int bitişIndex): Belirli bir aralıktaki alt dizesini döndürür.
@@ -40,7 +40,7 @@ public class Ornek01 {
         //Girilen cümlenin 2. karakterinden sondan 4 karakterine kadar olan aralığı yazdıran programı kodlayınız.
         System.out.print("Bir cümle giriniz : ");
         String substringCumle2 = scanner.nextLine();
-        String substringAralik = substringCumle2.substring(1,substringCumle2.length()-4);
+        String substringAralik = substringCumle2.substring(1, substringCumle2.length() - 4);
         System.out.println("substringAralik = " + substringAralik);
 
 
@@ -107,7 +107,6 @@ public class Ornek01 {
         // Sonuçları ekrana yazdırma
         System.out.println("Orjinal String: \"" + ornekString + "\"");
         System.out.println("Temizlenmiş String: \"" + temizlenmisString + "\"");
-
 
 
         //Soru:
@@ -178,7 +177,6 @@ public class Ornek01 {
         // Sonuçları ekrana yazdırma
         System.out.println("\"Merhaba\" ve \"Merhaba\" eşit mi? " + esitMi1); // true
         System.out.println("\"Merhaba\" ve \"Java\" eşit mi? " + esitMi2); // false
-
 
 
         //equalsIgnoreCase metodu, iki String nesnesinin içeriğini karşılaştırmak için kullanılır,
@@ -262,10 +260,9 @@ public class Ornek01 {
         System.out.println("Sayıları Temizlenmiş String: " + temizlenmisHali);
 
 
+        //----***** aritmetik operatorler *****----//
 
-                //----***** aritmetik operatorler *****----//
-
-       //Java'da aritmetik operatörler, matematiksel hesaplamalarda kullanılan temel işlemleri gerçekleştirmek için kullanılır.
+        //Java'da aritmetik operatörler, matematiksel hesaplamalarda kullanılan temel işlemleri gerçekleştirmek için kullanılır.
         // İşte Java'da bulunan aritmetik operatörler:
 
         //Toplama Operatörü (+):
@@ -317,8 +314,5 @@ public class Ornek01 {
         System.out.println("sayi12 = " + sayi12);
 
         //Bu operatörlerle matematiksel hesaplamalar gerçekleştirilebilir ve değişkenler arasında değer değişimleri sağlanabilir.
-
-
-
     }
 }
