@@ -1,4 +1,4 @@
-package practiseLessons.practise._18_ProgramToFindPowersOfFourAndFive;
+package practiseLessons.javaReviewPractices._18_ProgramToFindPowersOfFourAndFive;
 
 
 import java.util.Scanner;

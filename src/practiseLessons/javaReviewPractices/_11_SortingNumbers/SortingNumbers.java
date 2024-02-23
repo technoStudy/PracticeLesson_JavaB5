@@ -1,4 +1,4 @@
-package practiseLessons.practise._11_SortingNumbers;
+package practiseLessons.javaReviewPractices._11_SortingNumbers;
 
 import java.util.Scanner;
 

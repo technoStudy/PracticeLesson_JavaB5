@@ -1,4 +1,4 @@
-package practiseLessons.practise._15_LeapYear;
+package practiseLessons.javaReviewPractices._15_LeapYear;
 
 import java.util.Scanner;
 

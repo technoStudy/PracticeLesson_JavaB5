@@ -1,4 +1,4 @@
-package practiseLessons.practise._01_CalculatingGradeAverage;
+package practiseLessons.javaReviewPractices._01_CalculatingGradeAverage;
 
 import java.util.ArrayList;
 import java.util.Arrays;

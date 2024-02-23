@@ -1,4 +1,4 @@
-package practiseLessons.practise._06_GreeengrocerCashier;
+package practiseLessons.javaReviewPractices._06_GreeengrocerCashier;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package practiseLessons.practise._17_ProgramToFindTheSumOfOddNumbers;
+package practiseLessons.javaReviewPractices._17_ProgramToFindTheSumOfOddNumbers;
 
 import java.util.Scanner;
 
