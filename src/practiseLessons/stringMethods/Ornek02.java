@@ -36,37 +36,13 @@ public class Ornek02 {
 //        System.out.println("sonIkiKarakter = " + sonIkiKarakter);
 
 
-
         //substring(int başlangıçIndex, int bitişIndex): Belirli bir aralıktaki alt dizesini döndürür.
-        String altdize2 = str.substring(0,3);
+        String altdize2 = str.substring(0, 3);
         System.out.println("altdize2 = " + altdize2);
 
         System.out.print("Bir cümle giriniz : ");
         String substringCumle2 = scanner.nextLine();
-        String substringAralik = substringCumle2.substring(1,substringCumle2.length()-4);
+        String substringAralik = substringCumle2.substring(1, substringCumle2.length() - 4);
         System.out.println("substringAralik = " + substringAralik);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
 }

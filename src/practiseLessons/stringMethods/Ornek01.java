@@ -25,23 +25,23 @@ public class Ornek01 {
         String ornekString1 = "Merhaba Dünya";
         int index1 = ornekString1.indexOf("a");
         System.out.println("index1 = " + index1);
-        int index2= ornekString1.indexOf("a",index1+1);
+        int index2 = ornekString1.indexOf("a", index1 + 1);
         System.out.println("index1 + 1 = " + index2);
 
         //lastIndexOf metodu, bir String içinde belirli bir alt dizenin en son bulunduğu indeksi bulmaya yarayan bir Java metodu.
         //Bu metot, alt dizenin sondan başlayarak aranmasını sağlar. Eğer alt dize bulunamazsa, -1 değerini döndürür.
-        
-        String ornekString2 ="Merhaba Dünya, Merhaba Java 26";
+
+        String ornekString2 = "Merhaba Dünya, Merhaba Java 26";
         int index3 = ornekString2.lastIndexOf("Merhaba");
         System.out.println("index3 = " + index3);
         System.out.println("index3 = " + ornekString2.lastIndexOf("a"));
         System.out.println("index3 = " + ornekString2.indexOf("26"));
-        System.out.println("index3 = " + (ornekString2.length()-1));
+        System.out.println("index3 = " + (ornekString2.length() - 1));
 
         //isEmpty metodu, bir String'in boş olup olmadığını kontrol etmek için kullanılır.
         // Eğer string boş ise true, değilse false döndürür.
-        String bosString ="";
-        String doluString ="Merhaba";
+        String bosString = "";
+        String doluString = "Merhaba";
 
         boolean bosMu1 = bosString.isEmpty();
         boolean bosMu2 = doluString.isEmpty();
@@ -50,7 +50,7 @@ public class Ornek01 {
 
         //trim metodu, bir String'in başındaki ve sonundaki boşlukları (whitespace karakterleri) temizlemek için kullanılır.
         //Whitespace karakterleri, boşluk, tab, yeni satır gibi görünmeyen karakterleri içerir.  
-        
+
         String ornekTrim = "     Merhaba, Bu bir örnek!     ";
         String temizlenmisTrim = ornekTrim.trim();
         System.out.println("ornekTrim = " + ornekTrim);
@@ -90,7 +90,5 @@ public class Ornek01 {
         System.out.println("esitMi3 t = " + esitMi3);
         System.out.println("esitMi5 f= " + esitMi5);
         System.out.println("esitMi4 f = " + esitMi4);
-
-
     }
 }
