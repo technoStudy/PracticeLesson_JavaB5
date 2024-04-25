@@ -1,4 +1,4 @@
-package practiseLessons.staticNonStaticMethods.ornek01;
+package staticNonStaticMethods.ornek01;
 
 public class HesapMakinesi {
 

@@ -1,4 +1,4 @@
-package practiseLessons.polymorphism;
+package polymorphism;
 
 public class AreaCalculator {
      // polimorfik metot : shap interface kullanarak herhangi bir nesnenin alanini hesaplayacagiz

@@ -1,4 +1,4 @@
-package practiseLessons.inheritance.ornek01;
+package inheritance.ornek01;
 
 // Hayvan sınıfı
 public class Hayvan {

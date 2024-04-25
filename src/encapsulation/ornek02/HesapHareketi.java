@@ -1,4 +1,4 @@
-package practiseLessons.encapsulation.ornek02;
+package encapsulation.ornek02;
 
 public class HesapHareketi {
     private final String tarih; // Hesap hareketinin yapıldığı tarihi temsil eden özellik

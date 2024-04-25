@@ -1,4 +1,4 @@
-package practiseLessons.constructors.ornek01;
+package constructors.ornek01;
 
 public class Ornek01 {
     public static void main(String[] args) {

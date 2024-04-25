@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek02;
+package abstractClass.ornek02;
 
 // Hayvan adında bir abstract sınıf tanımlanıyor.
 public abstract class Hayvan {

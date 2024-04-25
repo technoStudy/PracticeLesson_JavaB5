@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek01;
+package abstractClass.ornek01;
 
 // Dikdortgen classı oluşturuldu
 public class Dikdortgen extends GeometrikSekil {

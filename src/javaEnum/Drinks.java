@@ -1,4 +1,4 @@
-package practiseLessons.javaEnum;
+package javaEnum;
 
 public enum Drinks {
     COLA("Coca-Cola"), SU("Su"), lemonade("Limonata"), ICE_TEA("Ice Tea"), FRUIT_JUICE("Meyve Suyu");

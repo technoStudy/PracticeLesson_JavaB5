@@ -1,4 +1,4 @@
-package practiseLessons.javaClassMethod;
+package javaClassMethod;
 
 import java.util.Scanner;
 

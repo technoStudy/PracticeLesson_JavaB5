@@ -1,4 +1,4 @@
-package practiseLessons.encapsulation.ornek01;
+package encapsulation.ornek01;
 
 public class Ornek01 {
 

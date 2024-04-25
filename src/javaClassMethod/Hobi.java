@@ -1,4 +1,4 @@
-package practiseLessons.javaClassMethod;
+package javaClassMethod;
 
 public class Hobi {
     String ad;

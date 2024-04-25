@@ -1,4 +1,4 @@
-package practiseLessons.encapsulation.ornek02;
+package encapsulation.ornek02;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package practiseLessons.staticNonStaticMethods.ornek02;
+package staticNonStaticMethods.ornek02;
 
 public class Ornek02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek03;
+package abstractClass.ornek03;
 
 // Main sınıfı
 public class Ornek03 {

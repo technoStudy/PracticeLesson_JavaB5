@@ -1,4 +1,4 @@
-package practiseLessons.constructors.ornek02;
+package constructors.ornek02;
 
 public class Kitap {
     private String isim;

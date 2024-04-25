@@ -1,6 +1,5 @@
-package practiseLessons.inheritance.ornek01;
+package inheritance.ornek01;
 
-import practiseLessons.inheritance.ornek01.Hayvan;
 
 // Kedi sınıfı
 public class Kedi extends Hayvan {

@@ -1,4 +1,4 @@
-package practiseLessons.inheritance.ornek02;
+package inheritance.ornek02;
 
 // Çalışan sınıfı
 class Calisan {

@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek03;
+package abstractClass.ornek03;
 
 import java.util.ArrayList;
 

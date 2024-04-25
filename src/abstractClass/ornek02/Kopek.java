@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek02;
+package abstractClass.ornek02;
 
 // Hayvan sınıfını genişleten Köpek adında bir sınıf tanımlanıyor.
 public class Kopek extends Hayvan {

@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek03;
+package abstractClass.ornek03;
 
 // Ogrenci sınıfından türeyen LisansOgrenci sınıfını tanımladık
 class LisansOgrenci extends Ogrenci {

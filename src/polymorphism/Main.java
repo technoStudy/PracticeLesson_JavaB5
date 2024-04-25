@@ -1,4 +1,4 @@
-package practiseLessons.polymorphism;
+package polymorphism;
 
 import java.util.Scanner;
 

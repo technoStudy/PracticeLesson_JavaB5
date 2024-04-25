@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek02;
+package abstractClass.ornek02;
 
 // Main sınıfı, programın başlangıç noktasıdır.
 public class Ornek02 {

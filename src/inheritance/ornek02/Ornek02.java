@@ -1,4 +1,4 @@
-package practiseLessons.inheritance.ornek02;
+package inheritance.ornek02;
 
 // Ana sınıf
 public class Ornek02 {

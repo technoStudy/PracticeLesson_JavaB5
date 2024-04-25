@@ -1,4 +1,4 @@
-package practiseLessons.staticNonStaticMethods.ornek02;
+package staticNonStaticMethods.ornek02;
 
 public class Dikdortgen {
     public double alanHesapla(double uzunluk, double genislik) {

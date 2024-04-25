@@ -1,4 +1,4 @@
-package practiseLessons.abstractClass.ornek01;
+package abstractClass.ornek01;
 
 // main methodun bulunduğu class oluşturuldu
 public class Ornek01 {

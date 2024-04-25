@@ -1,4 +1,4 @@
-package practiseLessons.accessModifiersAndNonAccessModifiers.protectedMain;
+package accessModifiersAndNonAccessModifiers.protectedMain;
 
 public class MainProtected {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practiseLessons.inheritance.ornek02;
+package inheritance.ornek02;
 
 // Yönetici sınıfı
 class Yonetici extends Calisan {
