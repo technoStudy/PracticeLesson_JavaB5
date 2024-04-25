@@ -1,7 +1,0 @@
-Soru:
-
-Bir banka hesap uygulaması yazmanız gerekiyor.
-Bu uygulama, müşteri bilgilerini (ad, soyad, hesap numarası, hesap bakiyesi) ve
-bu müşterilerin hesap hareketlerini (tarih, açıklama, miktar, işlem türü) tutabilmelidir.
-Ancak, bu bilgilerin doğrudan erişilebilir olması istenmiyor.
-Bu nedenle, Encapsulation kullanarak bu bilgilerin güvenliğini sağlamalısınız.

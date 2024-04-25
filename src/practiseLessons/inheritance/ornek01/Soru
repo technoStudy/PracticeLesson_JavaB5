@@ -1,8 +1,0 @@
-Soru:
-
-Bir hayvan sınıfı oluşturun ve bu sınıftan köpek ve kedi sınıflarını türetin.
-Köpek sınıfı, "havhav" ve kedi sınıfı, "miyav" şeklinde ses çıkarsın.
-Her iki sınıfın da özellikleri arasında "yaş" ve "renk" olsun.
-Köpek sınıfı ayrıca "tasma" özelliğine sahip olsun.
-Bu özellikleri kullanarak, bir köpek ve bir kedi nesnesi oluşturun
-ve özellikleri ile seslerini ekrana yazdırın.
