@@ -1,0 +1,21 @@
+Static and Non-Static Methotlar
+
+Java'da metotlar, sınıfların davranışlarını belirlemek için kullanılan özel fonksiyonlardır.
+Java'da iki tür metot vardır: static ve non-static.
+
+Static metotlar, sınıfın özelliklerine erişmeden ve nesne oluşturmadan doğrudan sınıf adı ile çağrılabilirler.
+Static metotlar, sınıfın her nesnesi için aynı davranışı gösterirler ve sınıfın özelliklerine erişemezler.
+
+Non-static metotlar ise nesne bazlıdır ve bir nesne oluşturulduktan sonra çağrılabilirler.
+Non-static metotlar, sınıfın özelliklerine erişebilirler ve her nesne için farklı davranışlar sergileyebilirler.
+
+Static metotlar, özellikle sınıf düzeyinde işlemler yapmak istediğimizde kullanılır.
+Örneğin, bir Matematik sınıfı için bir static toplama metodu oluşturduğumuzda,
+bu metodu Matematik.topla() şeklinde sınıf adı ile çağırabiliriz.
+
+Non-static metotlar ise nesne bazlı işlemler yapmak istediğimizde kullanılır.
+Örneğin, bir Araba sınıfı için bir non-static hızlanma metodu oluşturduğumuzda,
+bu metodu Araba nesnesi üzerinden çağırabiliriz.
+
+Java'da static ve non-static metotlar arasındaki farklar önemlidir ve doğru kullanımı,
+sınıfın davranışlarını belirlemede önemli bir rol oynar.

@@ -1,0 +1,8 @@
+Soru:
+
+1)- Bir "Kişi" sınıfı oluşturun ve bu sınıfın "ad" ve "yas" adında iki özelliği olsun.
+2)- "ad" özelliği herkese açık (public) iken, "yas" özelliği gizli (private) olsun.
+3)- "yas" özelliğine erişmek için bir "getYas" metodu kullanın.
+4)- "Kişi" sınıfından bir nesne oluşturun ve bu nesneye "Hazar" ismini verin.
+5)- Nesnenin "yas" özelliğini "30" olarak ayarlayın.
+6)- Nesnenin "yas" özelliğini döndüren "getYas" metodunu kullanarak nesnenin yaşını alın ve ekrana yazdırın.

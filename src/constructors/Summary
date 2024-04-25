@@ -1,0 +1,20 @@
+Constructor:
+
+Java'da constructorlar, bir sınıfın nesnesinin oluşturulması sırasında kullanılan özel metotlardır.
+Bir nesne oluşturulduğunda, bellekte yer ayrılması ve sınıfın özelliklerinin başlangıç değerleriyle atanması gerekmektedir.
+İşte burada constructor devreye girer.
+
+Bir sınıfın constructor'ı, sınıfın adıyla aynı isme sahip olmalıdır.
+Constructor, new anahtar kelimesiyle çağrılır ve geri dönüş değeri yoktur.
+Constructor'ların farklı parametreler alabilmesi sayesinde, aynı sınıftan farklı özelliklere sahip birden fazla nesne oluşturabiliriz.
+
+Constructorlar, sınıfın özelliklerinin başlangıç değerlerini atamak için kullanılır.
+Örneğin, bir Araba sınıfı için bir constructor oluşturduğumuzda,
+bu constructor içinde Araba'nın markası, modeli, rengi gibi özelliklerine başlangıç değerleri atayabiliriz.
+
+Constructorlar aynı zamanda sınıfın diğer metotlarına da erişim sağlar.
+Örneğin, bir constructor içinde sınıfın özelliklerine başlangıç değerleri atadıktan sonra,
+bu özelliklere diğer metotlar aracılığıyla erişebilir ve manipüle edebiliriz.
+
+Constructorlar, Java'da sınıfların oluşturulması ve yönetilmesinde önemli bir rol oynar.
+İyi bir constructor tasarımı, sınıfın kullanımını kolaylaştırır ve hataları önler.

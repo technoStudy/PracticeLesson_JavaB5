@@ -1,0 +1,27 @@
+Java Setleri, benzersiz elemanları içeren bir koleksiyon tipidir.
+Set'ler, elemanların sırasını korumaz ve her eleman sadece bir kez bulunabilir.
+Bu özellikleri nedeniyle Set'ler, birçok farklı senaryoda kullanışlıdır.
+
+Java'da Set'ler, HashSet, TreeSet ve LinkedHashSet olmak üzere üç farklı sınıfta bulunur.
+Bu sınıflar arasındaki farklar şu şekildedir:
+
+HashSet: Elemanları herhangi bir sırayla depolar ve en hızlı ekleme/silme işlemlerine sahiptir.
+Ancak elemanların sırası önemli değilse tercih edilir.
+
+TreeSet: Elemanları doğal bir sıraya göre depolar.
+Bu nedenle, elemanların sıralı olması gerektiği durumlarda kullanılır.
+Ancak, HashSet'e göre daha yavaş ekleme/silme işlemlerine sahiptir.
+
+LinkedHashSet: Elemanları eklendiği sıraya göre depolar.
+Bu nedenle, elemanların sırasının korunması gerektiği durumlarda kullanılır.
+HashSet'e göre ekleme/silme işlemleri biraz daha yavaştır, ancak TreeSet'e göre daha hızlıdır.
+
+Set'ler, add() metoduyla eleman eklenerek doldurulur.
+Elemanlar, remove() metoduyla silinebilir.
+Ayrıca, contains() metoduyla bir elemanın set içinde olup olmadığı kontrol edilebilir.
+
+Set'ler, diğer setlerle birleştirilebilir, kesiştirilebilir veya farkları alınabilir.
+Bir Set'in başka bir Set ile birleştirilmesi addAll() metodu kullanılarak yapılır.
+Kesişim işlemi retainAll() metodu ile yapılırken, fark işlemi removeAll() metodu ile yapılır.
+
+Set'ler genellikle for-each döngüsüyle veya iterator() metodu kullanılarak elemanları üzerinde gezinilir.

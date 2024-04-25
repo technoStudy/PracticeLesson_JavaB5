@@ -1,0 +1,8 @@
+Soru:
+
+Bir Ogrenci sınıfı oluşturmanız isteniyor.
+Bu sınıfın özellikleri ad, soyad ve yas olmalıdır.
+Ayrıca, yas değeri verilmezse varsayılan olarak 18 olarak atanmalıdır.
+Ogrenci sınıfının aşağıdaki metotları da olmalıdır:
+bilgileriGoster(): Ogrenci'nin adını, soyadını ve yaşını ekrana yazdıran bir metot.
+Bu gereksinimlere uygun olarak Ogrenci sınıfını ve constructor'ını oluşturun.

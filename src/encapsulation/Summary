@@ -1,0 +1,25 @@
+Java Encapsulation, sınıfların verilerini ve davranışlarını bir arada tutarak,
+nesne yönelimli programlama prensiplerine uygun olarak tasarlanmasını sağlar.
+Bu prensip, sınıfın verilerini gizleyerek, sınıfın dışındaki diğer sınıfların
+doğrudan erişimini engeller ve sınıfın içindeki yöntemlerin özelliklere erişmesini sağlar.
+
+Encapsulation, sınıfın verilerini private olarak tanımlayarak başlar.
+Bu, sınıfın dışındaki diğer sınıfların doğrudan bu özelliklere erişmesini engeller.
+Bunun yerine, sınıfın dışındaki diğer sınıflar, özelliklere erişmek için
+public olarak tanımlanmış getter ve setter yöntemlerini kullanabilir.
+
+Getter yöntemleri, özelliklerin değerlerini döndürürken, setter yöntemleri özelliklerin değerlerini ayarlar.
+Bu sayede, özelliklerin değerleri sınıfın dışında doğrudan değiştirilemez ve kontrol edilemez.
+
+Encapsulation, kodun daha güvenli ve esnek olmasını sağlar.
+Örneğin, bir sınıfın özellikleri değiştiğinde, sadece getter ve setter yöntemlerinin değiştirilmesi gerekir.
+Bu, diğer sınıfların bu değişikliklerden etkilenmesini önler ve kodun daha kolay bakımını sağlar.
+
+Encapsulation ayrıca, sınıfların daha iyi bir şekilde modülerleştirilmesini ve yeniden kullanılmasını sağlar.
+Encapsulation, bir sınıfın iç yapısını gizleyerek, sınıfın dışındaki diğer sınıfların
+sadece sınıfın public arayüzüne erişmesini sağlar. Bu, sınıfın iç yapısının değiştirilmesi durumunda,
+sınıfın dışındaki diğer sınıfların bundan etkilenmesini önler.
+
+Özetle,
+Encapsulation, Java'da nesne yönelimli programlama prensiplerine uygun olarak tasarlanan
+sınıfların verilerini ve davranışlarını gizleyerek, kodun daha güvenli, esnek ve modüler olmasını sağlar.

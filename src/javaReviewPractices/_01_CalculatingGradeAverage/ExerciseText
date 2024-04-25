@@ -1,0 +1,16 @@
+
+In English :
+
+Write a program that takes the exam scores of
+Mathematics, Physics, Chemistry, Turkish, History, Music courses
+from the user and calculates the averages and prints them on the screen with Java.
+
+Note: If and Else will not be used...
+
+ =====================================
+
+Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik
+derslerinin sınav puanlarını kullanıcıdan alan ve
+ortalamalarını hesaplayıp ekrana bastırılan programı yazın.
+
+Not : If ve Else kullanılmayacak...

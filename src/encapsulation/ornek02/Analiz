@@ -1,0 +1,4 @@
+Bu kod örneği, encapsulation prensibini kullanarak müşteri bilgilerini ve hesap hareketlerini
+güvenli bir şekilde saklamaktadır. Müşteri bilgilerine doğrudan erişim engellenmiş
+ve sadece getter ve setter metodları aracılığıyla erişim sağlanmıştır. Hesap hareketleri ise
+BankaHesabi sınıfı tarafından kontrol edilmekte ve güvenli bir şekilde eklenip alınabilmektedir.
