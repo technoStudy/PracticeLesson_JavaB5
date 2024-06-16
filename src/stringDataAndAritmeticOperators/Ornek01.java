@@ -1,4 +1,4 @@
-package practiseLessons.stringDataAndAritmeticOperators;
+package stringDataAndAritmeticOperators;
 
 import java.util.Scanner;
 

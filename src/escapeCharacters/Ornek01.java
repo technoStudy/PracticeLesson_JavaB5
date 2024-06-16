@@ -1,4 +1,4 @@
-package practiseLessons.escapeCharacters;
+package escapeCharacters;
 
 public class Ornek01 {
 

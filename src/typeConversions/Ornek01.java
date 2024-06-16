@@ -1,19 +1,19 @@
-package practiseLessons.typeConversions;
+package typeConversions;
 
 public class Ornek01 {
 
     public static void main(String[] args) {
 
-/*Soru :
-Aşağıdaki değişkenler tanımlanmıştır:
-int sayi = 42;
-double ondalikSayi = 3.14;
-Bu değişkenleri kullanarak aşağıdaki işlemleri gerçekleştirin:
-1-	sayi değişkenini double türüne dönüştürün ve sonucu doubleSayi adlı bir değişkende saklayın.
-2-	ondalikSayi değişkenini int türüne dönüştürün ve sonucu tamSayi adlı bir değişkende saklayın.
-3-	sayi ve ondalikSayi değişkenlerini toplayın ve sonucu toplam adlı bir değişkende saklayın.
-4-	toplam değişkenini bir tamsayıya dönüştürün ve sonucu ekrana yazdırın.
-*/
+        /*Soru :
+        Aşağıdaki değişkenler tanımlanmıştır:
+        int sayi = 42;
+        double ondalikSayi = 3.14;
+        Bu değişkenleri kullanarak aşağıdaki işlemleri gerçekleştirin:
+        1-	sayi değişkenini double türüne dönüştürün ve sonucu doubleSayi adlı bir değişkende saklayın.
+        2-	ondalikSayi değişkenini int türüne dönüştürün ve sonucu tamSayi adlı bir değişkende saklayın.
+        3-	sayi ve ondalikSayi değişkenlerini toplayın ve sonucu toplam adlı bir değişkende saklayın.
+        4-	toplam değişkenini bir tamsayıya dönüştürün ve sonucu ekrana yazdırın.
+        */
 
         int sayi = 42;
         double ondalikSayi = 3.14;
@@ -31,9 +31,9 @@ Bu değişkenleri kullanarak aşağıdaki işlemleri gerçekleştirin:
 
         /*
         Soru 2:
-Bir yarış oyunu geliştiriyorsunuz alınan bir süre (örneğin, "1.5” dakika) ve bir hız (örneğin, "60” km/saat)
-bilgisini içeren String türündeki verilerle çalışmanız gerekiyor. Bu bilgileri uygun veri tiplerine dönüştürerek
-toplam mesafeyi hesaplayan bir program yazın. (Mesafe = Zaman x Hız formülü)
+        Bir yarış oyunu geliştiriyorsunuz alınan bir süre (örneğin, "1.5” dakika) ve bir hız (örneğin, "60” km/saat)
+        bilgisini içeren String türündeki verilerle çalışmanız gerekiyor. Bu bilgileri uygun veri tiplerine dönüştürerek
+        toplam mesafeyi hesaplayan bir program yazın. (Mesafe = Zaman x Hız formülü)
 
          */
 
@@ -44,27 +44,18 @@ toplam mesafeyi hesaplayan bir program yazın. (Mesafe = Zaman x Hız formülü)
         double mesafe = sayihiz / sayisure;
         System.out.println("mesafe = " + mesafe);
 
-/*
-Soru 4:
-Başlangıçta bir kesir var: 3/5 Bu kesiri, önce String türündeki pay ve paydas değerleri olarak alın,
-sonra bu değerleri int türüne dönüştürün ve son olarak double türüne dönüştürün her
-adımda elde ettiğiniz değerleri ekrana yazdırın.
+        /*
+        Soru 4:
+        Başlangıçta bir kesir var: 3/5 Bu kesiri, önce String türündeki pay ve paydas değerleri olarak alın,
+        sonra bu değerleri int türüne dönüştürün ve son olarak double türüne dönüştürün her
+        adımda elde ettiğiniz değerleri ekrana yazdırın.
 
- */
+         */
         String pay = "3";
         String payda = "5";
         int iPay = Integer.parseInt(pay);
         int iPayda = Integer.parseInt(payda);
         double dSonuc = iPay / (double) iPayda;
         System.out.println("dSonuc = " + dSonuc);
-
-/*Soru 3:
-Bir banka, müşterisine yatırdığı paraya yılda %5 faiz ödemektedir. Bir müşteri,
-1000 TL tutarında bir miktarı bu bankaya yatırmıştır. Bu miktarın 3 yıl sonraki
-değerini hesaplayan bir program yazın.
-Not: Sonuç String typinde olsun
-*/
     }
 }
-
-

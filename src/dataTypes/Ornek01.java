@@ -1,4 +1,4 @@
-package practiseLessons.dataTypes;
+package dataTypes;
 
 public class Ornek01 {
 
