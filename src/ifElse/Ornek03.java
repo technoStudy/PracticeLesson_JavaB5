@@ -1,4 +1,4 @@
-package practiseLessons.ifElse;
+package ifElse;
 
 import java.util.Scanner;
 

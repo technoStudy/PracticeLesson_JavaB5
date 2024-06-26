@@ -1,4 +1,4 @@
-package practiseLessons.stringMethods;
+package stringMethods;
 
 public class Ornek01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practiseLessons.nestedIfElse;
+package nestedIfElse;
 
 import java.util.Scanner;
 

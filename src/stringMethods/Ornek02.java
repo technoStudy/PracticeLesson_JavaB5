@@ -1,4 +1,4 @@
-package practiseLessons.stringMethods;
+package stringMethods;
 
 import java.util.Scanner;
 
