@@ -1,4 +1,4 @@
-package practiseLessons.ternary;
+package ternary;
 
 import java.util.Scanner;
 
